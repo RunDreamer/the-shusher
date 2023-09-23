@@ -17,7 +17,7 @@ function setup() {
   micButton.mousePressed(startMic);
 
   // Position the button initially
-  positionButton();
+  // positionButton();
   
   micButton.position(windowWidth / 2 - micButton.width / 2, windowHeight / 2 - micButton.height / 2);  // Position the button in center
   micButton.mousePressed(startMic);

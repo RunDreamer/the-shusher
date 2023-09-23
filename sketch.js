@@ -22,8 +22,6 @@ function setup() {
   micButton.mousePressed(startMic);
 }
 
-}
-
 async function startMic() {
   // Initialize the audio in the startMic function
   soundFormats('mp3', 'ogg');

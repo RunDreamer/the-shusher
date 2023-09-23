@@ -8,7 +8,7 @@ function setup() {
   noStroke();
   
   let micButton = createImg('mic_icon.png', 'Start microphone');
-  micButton.position(10, 10);  // Position the button at (10, 10)
+  micButton.position(windowWidth / 2 - micButton.width / 2, windowHeight / 2 - micButton.height / 2);  // Position the button at (10, 10)
   micButton.mousePressed(startMic);
 }
 

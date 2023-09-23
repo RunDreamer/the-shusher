@@ -12,14 +12,13 @@ function setup() {
   let micButton = createButton('Start microphone');
   // Set the anchor point to the center
   // micButton.style('transform-origin', 'center' , 'background', 'transparent');
-  micButton.size(200, 200);
+  // micButton.size(200, 200);
   // Attach the startMic function to the image click event
-  micButton.mousePressed(startMic);
 
   // Position the button initially
   // positionButton();
   
-  micButton.position(windowWidth / 2 - micButton.width / 2, windowHeight / 2 - micButton.height / 2);  // Position the button in center
+  // micButton.position(windowWidth / 2 - micButton.width / 2, windowHeight / 2 - micButton.height / 2);  // Position the button in center
   micButton.mousePressed(startMic);
 }
 

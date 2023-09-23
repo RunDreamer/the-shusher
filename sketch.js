@@ -12,7 +12,7 @@ function setup() {
   
   // Set the anchor point to the center
   micButton.style('transform-origin', 'center');
-
+  micButton.size(200, 200);
   // Attach the startMic function to the image click event
   micButton.mousePressed(startMic);
 

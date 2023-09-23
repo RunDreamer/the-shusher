@@ -7,7 +7,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
   
-  let micButton = createButton('Start microphone');
+  let micButton = createImg('mic_icon.png', 'Start microphone');
   micButton.position(10, 10);  // Position the button at (10, 10)
   micButton.mousePressed(startMic);
 }

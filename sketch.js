@@ -8,11 +8,11 @@ function setup() {
   noStroke();
 
 // Create an image element as a button
-  // let micButton = createImg('mic_icon.png', 'Start microphone');
-  let micButton = createButton('Start microphone');
+  let micButton = createImg('mic_icon.png', 'Start microphone');
+  // let micButton = createButton('Start microphone');
   // Set the anchor point to the center
-  // micButton.style('transform-origin', 'center' , 'background', 'transparent');
-  // micButton.size(200, 200);
+  micButton.style('transform-origin', 'center' , 'background', 'transparent');
+  micButton.size(200, 200);
   // Attach the startMic function to the image click event
 
   // Position the button initially

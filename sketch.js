@@ -6,12 +6,21 @@ let xgnr;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noStroke();
-  
+
+// Create an image element as a button
   let micButton = createImg('mic_icon.png', 'Start microphone');
+  
+  // Set the anchor point to the center
+  micButton.style('transform-origin', 'center');
+
+  // Attach the startMic function to the image click event
+  micButton.mousePressed(startMic);
+
+  // Position the button initially
+  positionButton();
+  
   micButton.position(windowWidth / 2 - micButton.width / 2, windowHeight / 2 - micButton.height / 2);  // Position the button in center
   micButton.mousePressed(startMic);
-  positionButton();
-  micButton.style('transform-origin', 'center');
 }
 
 }
